@@ -20,7 +20,7 @@ AwsCodepipelineStack(app, "AwsCodepipelineStack",
     # Uncomment the next line if you know exactly what Account and Region you
     # want to deploy the stack to. */
 
-    env=cdk.Environment(account='951200337496', region='eu-central-1'),
+    env=cdk.Environment(account='951200337496', region='us-east-1'),
     stack_name='github-codepipeline-stack'
 
     # For more information, see https://docs.aws.amazon.9512-0033-7496com/cdk/latest/guide/environments.html
