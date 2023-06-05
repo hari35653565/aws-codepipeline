@@ -24,5 +24,5 @@ class ResourceStack(Stack):
                                             handler="demo_lambda.lambda_handler")
 
         bucket = s3.Bucket(self, "MyfirstBucket", versioned=True,
-                           bucket_name="demo-bucket-beyond-the-cloud-98979867",
+                           bucket_name="demo-bucket-beyond-the-cloud-9897klklklghn67",
                            block_public_access=s3.BlockPublicAccess.BLOCK_ALL)
