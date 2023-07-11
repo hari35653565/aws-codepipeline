@@ -23,9 +23,9 @@ class AwsCodepipelineStack(Stack):
         super().__init__(scope, construct_id, **kwargs)
 
         git_input = pipelines.CodePipelineSource.connection(
-            repo_string="Hari356535/aws-codepipeline",
+            repo_string="hari35653565/aws-codepipeline",
             branch="main",
-            connection_arn="arn:aws:codestar-connections:us-east-1:951200337496:connection/08c24ee2-5e16-4045-9762-644a51fe3a67"
+            connection_arn="arn:aws:codestar-connections:us-east-1:951200337496:connection/190c8112-b6b0-4329-8b11-793e636b4478"
         )
 
         code_pipeline = codepipeline.Pipeline(
